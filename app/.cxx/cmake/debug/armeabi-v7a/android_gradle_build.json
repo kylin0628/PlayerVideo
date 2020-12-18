@@ -1,0 +1,73 @@
+{
+  "stringTable": {
+    "0": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi --gcc-toolchain=/Users/wangqi/ndk/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wangqi/ndk/android-ndk-r17c/sysroot -Dnative_lib_EXPORTS -I/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/src/main/cpp/include -isystem /Users/wangqi/ndk/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /Users/wangqi/ndk/android-ndk-r17c/sources/android/support/include -isystem /Users/wangqi/ndk/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/wangqi/ndk/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/CMakeLists.txt",
+    "/Users/wangqi/ndk/android-ndk-r17c/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/wangqi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/wangqi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/wangqi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
+      "buildType": "debug",
+      "toolchain": "3347737956",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/AudioChannel.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/JavaCallHelper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/Test.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/VideoChannel.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/VideoFFMpeg.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/libs/armeabi-v7a/libavcodec.so",
+        "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/libs/armeabi-v7a/libavformat.so",
+        "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/libs/armeabi-v7a/libavutil.so",
+        "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/libs/armeabi-v7a/libswscale.so",
+        "/Users/wangqi/AndroidStudioProjects/PlayerVideo/app/libs/armeabi-v7a/libswresample.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "3347737956": {
+      "cppCompilerExecutable": "/Users/wangqi/ndk/android-ndk-r17c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

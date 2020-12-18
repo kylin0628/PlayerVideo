@@ -1,0 +1,9 @@
+{
+  "ndkDirProperty": "/Users/wangqi/ndk/android-ndk-r17c",
+  "sdkFolder": "/Users/wangqi/Library/Android/sdk",
+  "sideBySideNdkFolderNames": [
+    "21.3.6528147",
+    "21.0.6113669",
+    "21.1.6352462"
+  ]
+}
